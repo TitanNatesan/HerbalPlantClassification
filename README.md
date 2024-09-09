@@ -1,5 +1,3 @@
----
-
 # Herbal Plant Classification
 
 ## Overview
