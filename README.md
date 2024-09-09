@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 ```
 numpy
+pillow
 tensorflow
 streamlit
 ```
