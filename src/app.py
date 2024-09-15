@@ -6,7 +6,8 @@ import numpy as np
 import os
 
 # Load the trained model (in .keras format)
-path = os.path.join(os.getcwd(),"src", 'HerbalModel.keras')
+path = os.path.join(os.getcwd(),"src", 'HerbalPlantClassification.keras')
+# path = os.path.join(os.getcwd(), 'HerbalPlantClassification.keras')
 
 if not os.path.isfile(path):
     raise FileNotFoundError(f"Model file not found at {path}. Please make sure to train the model first.")
